@@ -6,8 +6,7 @@
 
     $(function () {
 
-        console.log("{{ site.ios_app_id }}");
-
+        var playStoreURL = "{{ site.playstore_link }}";
         var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&callback=?";
 
         $.getJSON(apiURL, function (json) {
@@ -54,7 +53,7 @@
 
                 var $playStoreLink = $(".playStoreLink");
                 if ($.trim($($playStoreLink).text()).length == 0) {
-                    $($playStoreLink).attr("href", site.playstore_link);
+                    $($playStoreLink).attr("href", playStoreURL);
                 }
 
                 console.info(appInfo);
