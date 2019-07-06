@@ -32,15 +32,15 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Create Runs
-    description                           : Make running appointments, create runs with your running friends and embark on new routes.
+    description                           : Begin by creating new runs with your running friends and embark on new routes.
     fontawesome_icon_name                 : star
 
   - title                                 : Set Routes
     description                           : Set the route and the pace - so that all participants are on the same page beforehand.
     fontawesome_icon_name                 : star
 
-  - title                                 : Join Runs
-    description                           : Find a run when there is room in your schedule. The app makes it easy to join a run, at your preferred level, time and distance.
+  - title                                 : Join Runs That Fits You
+    description                           : It's easy to join a run, at your preferred level, time and distance.
     fontawesome_icon_name                 : star
 
 
