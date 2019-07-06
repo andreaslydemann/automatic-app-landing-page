@@ -6,6 +6,8 @@
 
     $(function () {
 
+        console.log(site);
+
         var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&callback=?";
 
         $.getJSON(apiURL, function (json) {
